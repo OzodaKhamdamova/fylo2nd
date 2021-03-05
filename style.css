@@ -197,19 +197,10 @@ footer{
 .footer-logo{
     padding-left: 30px;
 }
-.last-logo{
-    fill: white;
-    padding-left: 50px;
-    display: inline-block;
     
+.last-logo{
+     filter: invert(1);
 }
-.last-logo{
-    
-    filter: invert(1);
-     
-  }
-
-
 .footer-item{
     margin-bottom: 20px;
 }
@@ -218,9 +209,12 @@ footer{
     color: white;
     font-size: 14px;
     list-style-type: none;
-    line-height: 20px;
-  
+    
 }
+.menu-item{
+    margin-bottom: 8px;
+}
+
 .menu{
     display: flex;
     margin-left: 100px;
