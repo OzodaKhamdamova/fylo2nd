@@ -1,0 +1,251 @@
+body{
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container{
+    padding: 50px;
+}
+h2{
+font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding-right: 35px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif ;
+
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    padding-top: 70px;
+    margin-right: 40px;
+}
+.info-header{
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.info-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+}
+input{
+    margin-top: 50px;
+    height: 24px;
+    width: 300px;
+    border: 1.5px solid #333;
+    border-radius: 3px;
+}
+
+input:hover {
+    border: #1DA1F2 3px solid;
+  }
+
+button{
+    height: 30px;
+    width: 160px;
+    background-color:#1DA1F2;
+    color: white;
+    border: 1px solid #1DA1F2;
+    border-radius: 3px;
+}
+.intro-image{
+    padding-top: 50px;
+    padding-right: 60px;
+    
+}
+.for-shape{
+    background-image: url('images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: inherit;
+    height: 140px;
+    background-position-y: 43px;
+
+}
+
+.info-cont{
+    padding-top: 0;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: hsl(240, 75%, 98%);
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+    
+   
+    
+    
+
+}
+.text{
+    width: 40%;
+    padding-left: 50px;
+   
+}
+
+.text p{
+    line-height: 20px;
+    font-weight: 600;
+
+}
+.inform-image{
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.alink{
+    display: flex;
+}
+.flyo-link{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%) ;
+    padding-bottom: 6px;
+    
+}
+.feedback{
+    
+    width: 290px;
+    height: 190px;
+    background-color: white;
+    font-size: 11px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.feedbacker{
+    display: flex;
+}
+.feedbacker-info{
+    padding: 7px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.contact{
+    width: inherit;
+    height: 260px;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    color: white;
+    
+    align-items: center;
+}
+.contact-info{
+    padding-left: 100px;
+    width: 40%;
+    line-height: 24px;
+   
+}
+.contact-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.contact-email{
+    padding-right: 50px;
+}
+
+.email{
+    height: 32px;
+    width: 390px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+::placeholder {
+    color: #999;
+    font-size: 12px;
+    padding: 10px;
+  }
+.btn{
+    height: 32px;
+    width: 200px;
+
+}
+
+
+footer{
+    padding-top: 50px;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    height: 300px;
+    
+    
+}
+.footer-cont{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 50px;
+    
+
+}
+.footer-logo{
+    padding-left: 30px;
+}
+.last-logo{
+    fill: white;
+    padding-left: 50px;
+    display: inline-block;
+    
+}
+.last-logo{
+    
+    filter: invert(1);
+     
+  }
+
+
+.footer-item{
+    margin-bottom: 20px;
+}
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    line-height: 20px;
+  
+}
+.menu{
+    display: flex;
+    margin-left: 100px;
+}
+.second-line{
+    margin-left: 70px;
+}
+.social-network{
+    display: flex;
+    margin-left: 90px;
+  
+}
+
+.icon{
+    padding: 5px;
+   margin-left: 6px;
+    background-color: hsl(243, 87%, 12%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
